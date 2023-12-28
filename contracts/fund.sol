@@ -68,7 +68,6 @@ contract FundMe {
     {
         uint256 ethPrice = getPrice();
         uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;
-        print("asdjasd)
         // the actual ETH/USD conversation rate, after adjusting the extra 0s.
         return ethAmountInUsd;
     }
